@@ -6,6 +6,6 @@ const GREETING = [
 
 module.exports = async (req, res) => {
     res.send({
-        greeting: GREETING[ Math.floor( Math.random() * GREETINGS.length )],
+        greeting: GREETING[ Math.floor( Math.random() * GREETING.length )],
     });
 };
